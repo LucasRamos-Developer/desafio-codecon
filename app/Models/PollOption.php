@@ -9,7 +9,6 @@ class PollOption extends Model
 
     protected $table = 'poll_options';
 
-
     public function poll()
     {
         return $this->belongsTo(Poll::class);
